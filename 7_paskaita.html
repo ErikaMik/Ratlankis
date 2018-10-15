@@ -4,6 +4,7 @@
 	<title>Ratlankis</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata|Special+Elite" rel="stylesheet">
 </head>
 <body>
 	<div class="row">
@@ -15,24 +16,24 @@
 		<div class="row">
 			<div class="col block">
 				<label>Padangos aukštis</label>
-				<input id="padanga" type="text" name="" class="form-control mb-2" placeholder="Milimetrai">
+				<input id="padanga" type="text" name="" class="form-control mb-2" placeholder="Milimetrai (mm)">
 				<label>Ratlankio skersmuo</label>
-				<input id="ratlankis" type="text" name="" class="form-control mb-2" placeholder="Coliai">
+				<input id="ratlankis" type="text" name="" class="form-control mb-2" placeholder="Coliai (in)">
 				<label>Arkos spindulys</label>
-				<input id="arka" type="text" name="" class="form-control mb-2" placeholder="Centimetrai">
+				<input id="arka" type="text" name="" class="form-control mb-2" placeholder="Centimetrai (cm)">
 			</div>
 			<div class="col">
-				<button id="btn_sum" class="btn btn-dark btn-block">Skaičiuoti</button>
-				<button id="btn_empty" class="btn btn-warning btn-block">Clear</button>
+				<button id="btn_count" class="btn btn-dark btn-block">Skaičiuoti</button>
+				<button id="btn_empty" class="btn btn-warning btn-block">Išvalyti</button>
 			</div>
 			<div class="col block text-center" id="result">
-				x
+				Įveskite parametrus
 			</div>
 		</div>
 <!-- 		<div class="row">
 			<div class="col" id="history">No history</div>
 		</div> -->
 	</div>
-	<script src="app.js"></script>
+	<script src="app2.js"></script>
 </body>
 </html>

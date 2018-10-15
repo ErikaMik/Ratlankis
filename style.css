@@ -1,10 +1,12 @@
 #result {
-	font-size: 60px;
+	font-size: 30px;
 	text-center;
 }
 body {
 	background-color: gray;
+	font-family: 'Inconsolata', monospace;
 }
+
 #header {
 	padding: 5px;
 	text-align: center;
@@ -14,3 +16,11 @@ body {
 	border: solid 2px;
 }
 
+label {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#padanga, #ratlankis, #arka {
+	font-style: italic;
+}
