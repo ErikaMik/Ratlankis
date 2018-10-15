@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ratlankis</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="row">
+		<div class="col"></div>
+		<div class="col"><h1 id="header">Rato skaičiuoklis</h1></div>
+		<div class="col"></div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col block">
+				<label>Padangos aukštis</label>
+				<input id="padanga" type="text" name="" class="form-control mb-2" placeholder="Milimetrai">
+				<label>Ratlankio skersmuo</label>
+				<input id="ratlankis" type="text" name="" class="form-control mb-2" placeholder="Coliai">
+				<label>Arkos spindulys</label>
+				<input id="arka" type="text" name="" class="form-control mb-2" placeholder="Centimetrai">
+			</div>
+			<div class="col">
+				<button id="btn_sum" class="btn btn-dark btn-block">Skaičiuoti</button>
+				<button id="btn_empty" class="btn btn-warning btn-block">Clear</button>
+			</div>
+			<div class="col block text-center" id="result">
+				x
+			</div>
+		</div>
+<!-- 		<div class="row">
+			<div class="col" id="history">No history</div>
+		</div> -->
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>

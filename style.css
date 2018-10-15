@@ -1,0 +1,16 @@
+#result {
+	font-size: 60px;
+	text-center;
+}
+body {
+	background-color: gray;
+}
+#header {
+	padding: 5px;
+	text-align: center;
+}
+
+.block {
+	border: solid 2px;
+}
+
