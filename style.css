@@ -1,26 +1,47 @@
 #result {
 	font-size: 30px;
-	text-center;
+	padding-top: 35%;
 }
 body {
-	background-color: gray;
 	font-family: 'Inconsolata', monospace;
+	color: rgb(177, 178, 171);
+}
+
+#head {
+	padding-top: 30px;
 }
 
 #header {
 	padding: 5px;
 	text-align: center;
+	color: rgb(53, 53, 49);
 }
 
 .block {
 	border: solid 2px;
+	border-radius: 20px;
+	background: rgb(76,76,76); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 0%, rgba(17,17,17,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(76,76,76,1)), color-stop(0%,rgba(89,89,89,1)), color-stop(100%,rgba(17,17,17,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 0%,rgba(17,17,17,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 0%,rgba(17,17,17,1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 0%,rgba(17,17,17,1) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 0%,rgba(17,17,17,1) 100%); /* W3C */
 }
 
 label {
-	font-weight: bold;
 	font-size: 30px;
 }
 
 #padanga, #ratlankis, #arka {
 	font-style: italic;
+}
+
+#margin {
+	padding-top: 100px;
+}
+
+#grad1 {
+    height: 950px;
+    background-image: linear-gradient(to bottom, grey , black);
 }

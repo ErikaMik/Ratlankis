@@ -6,8 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata|Special+Elite" rel="stylesheet">
 </head>
-<body>
-	<div class="row">
+<body id="grad1">
+	<div id="head" class="row">
 		<div class="col"></div>
 		<div class="col"><h1 id="header">Rato skaičiuoklis</h1></div>
 		<div class="col"></div>
@@ -23,16 +23,16 @@
 				<input id="arka" type="text" name="" class="form-control mb-2" placeholder="Centimetrai (cm)">
 			</div>
 			<div class="col">
+				<div id="margin" class="col"></div>
 				<button id="btn_count" class="btn btn-dark btn-block">Skaičiuoti</button>
 				<button id="btn_empty" class="btn btn-warning btn-block">Išvalyti</button>
 			</div>
-			<div class="col block text-center" id="result">
-				Įveskite parametrus
+			<div class="col block text-center">
+				<div id="result" class="col">
+					Įveskite parametrus
+				</div>
 			</div>
 		</div>
-<!-- 		<div class="row">
-			<div class="col" id="history">No history</div>
-		</div> -->
 	</div>
 	<script src="app2.js"></script>
 </body>
