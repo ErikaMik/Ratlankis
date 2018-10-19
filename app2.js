@@ -15,7 +15,7 @@ function count() {
 	var p_convert = p / 10;
 	var r_convert = Math.ceil(r / 0.39370);
 	
-	if (2 * a > 2 * p_convert + r_convert) {
+	if ((2 * a) > (2 * p_convert + r_convert)) {
 		rez.innerHTML = 'Ratas tinkamas';
 		rez.style.color = '#BAF171';
 	} else {
